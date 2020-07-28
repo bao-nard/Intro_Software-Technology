@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: #F60;
+    background-color: #f2e9e4;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #menu {
@@ -35,6 +35,10 @@ aside {
     width: 260px;
 }
 
+aside .menu1 ul {
+    list-style: none;
+}
+
 footer {
     clear: both;
 }
@@ -52,18 +56,17 @@ footer {
 
 footer b {
     text-transform: uppercase;
-    color: #808080;
+    color: #2a3bbd;
     font-size: 18px;
 }
 
 footer p {
-    font-style: italic;
-    color: #000;
+    color: #2a3bbd;
     font-weight: bold;
 }
 
 .chuchay1 {
-    background-color: #f42b5d;
+    background-color: #343a40;
     color: #FFF;
     text-transform: uppercase;
     height: 40px;
@@ -73,8 +76,8 @@ footer p {
 }
 
 .menu1 {
-    padding-left: 30px;
-    background-color: #f3285b;
+    font-size: larger;
+    background-color: #adb5bd;
     border-radius: 10px;
 }
 
@@ -83,12 +86,34 @@ footer p {
 }
 
 .menu1 ul li a {
+    padding: 10px;
     text-decoration: none;
-    color: #FFF;
+    color: #343a40;
+    font-size: large;
+    font-weight: bold;
 }
 
 .menu1 ul li a:hover {
-    color: #FF0;
+    font-weight: bold;
+    background-color: #f2e9e4;
+    color: red;
+}
+
+.menu2 {
+    border-radius: 10px;
+}
+
+.menu2 p {
+    text-align: center;
+    color: #343a40;
+    font-weight: bold;
+}
+
+h3 {
+    color: #212529;
+    font-weight: 900;
+    margin-top: 19px;
+    text-align: center;
 }
 
 .box {
@@ -100,8 +125,7 @@ footer p {
 }
 
 .button {
-    background-color: #f3285b;
-    height: 30px;
+    background-color: #878472;
     line-height: 30px;
     border-radius: 5px;
     color: #FFF;
@@ -111,6 +135,8 @@ footer p {
 .box a {
     text-decoration: none;
     color: #000;
+    font-size: larger;
+    font-weight: bold;
     /* padding-top: 20px; */
 }
 
@@ -128,24 +154,6 @@ footer p {
 .box h4 {
     color: #F00;
     text-align: center;
-}
-
-h3 {
-    color: #FFF;
-    font-weight: bold;
-    margin-top: 19px;
-    text-align: center;
-}
-
-.menu2 {
-    background-color: #f3285b;
-    border-radius: 10px;
-}
-
-.menu2 p {
-    text-align: center;
-    color: black;
-    font-weight: bold;
 }
 
 nav>ul>li {
@@ -171,7 +179,9 @@ nav>ul {
     margin: 0px;
     list-style: none;
     border-radius: 10px;
-    background-color: #f73969;
+    background-color: #343a40;
+    color: #FFF;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -187,8 +197,6 @@ nav ul ul {
 nav ul ul a {
     display: block;
     line-height: 30px;
-    background-color: #f73969;
-    color: white;
     font-weight: bold;
     text-decoration: none;
     padding: 10px 10px;
